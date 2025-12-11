@@ -1,2 +1,2 @@
-# launch-school-python
-Launch School Python Track
+# Launch School Python Track
+
