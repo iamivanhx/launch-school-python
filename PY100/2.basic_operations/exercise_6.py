@@ -1,2 +1,4 @@
 # To what value does the following expression evaluate?
-'foo' == 'Foo' # => False
+'foo' == 'Foo'
+
+# Evaluates to the Boolean False.
