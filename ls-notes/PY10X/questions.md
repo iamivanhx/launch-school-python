@@ -64,5 +64,32 @@ https://launchschool.com/books/python/read/data_types#datatypes
 
 https://launchschool.com/books/python/read/data_types#datatypes
 
+## Basic Operations
+
+### If you perform arithmetic operations involving both integers and floats, what type of value is returned? Why do you think Python behaves this way?
+
+https://launchschool.com/books/python/read/basic_ops
+
+### Your banking app currently stores currency amounts in dollars using float values, which leads to precision issues. What alternative representation, using a different unit or data type, could help you avoid floating point errors?
+
+### What's the _return type_ of all comparison operators?
+
+### Do you think you should explicitly convert the integer to a float before performing the operation `1 + 3.5`? Why or why not?
+
+### Why might you choose to use `repr` instead of `str` when printing values while debugging a program that uses both number types and strings containing digits?
+
+### In the code below, why did assigning `my_list[2] = 6` update the `3` to `6` (resulting in `[1, 2, 6, 4]`) instead of updating the `2`?
+
+```python
+my_list = [1, 2, 3, 4]
+my_list[2] = 6
+print(my_list)          # [1, 2, 6, 4]
+my_list[4] = 10
+# IndexError: list assignment index out of range
+```
+
+### Can a statement contain an expression? Can an expression contain a statement? Explain your reasoning.
+
+### When we pass a function invocation into `print`, what are we printing?
 
 
