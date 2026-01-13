@@ -92,4 +92,21 @@ my_list[4] = 10
 
 ### When we pass a function invocation into `print`, what are we printing?
 
+## Variables
+
+### Once we reassign `foo` to `'Hello'`, do we have any way to access the string `'abcdefghi'`? Why or why not?
+
+```python
+foo = 'abcdefghi'
+foo = 'Hello'
+```
+
+### Can you give an example of a value in a program that you would want to define as a constant? Why might you want it to remain unchanged?
+
+### Can the left side of the `=` operator be an expression? Why or why not?
+
+### Does augmented assignment ever change the data type of the variable? Why or why not?
+
+### If integers are immutable, how can `my_list[1] = 42` be considered a mutating action?
+
 
