@@ -129,3 +129,28 @@ print(f'The numbers {number1} and {number2} add to {sum}')
 ```
 
 
+## Functions and Methods
+
+### What's one reason we might define a function even if we only intend to use it once?
+
+### When you run `print(print(42))`, both `42` and `None` are logged to the console. Which one appears first, and what does each line represent? Explain why they are printed in that order.
+
+### What's one way we can learn about a built-in function _besides_ looking at the documentation?
+
+### Could two objects that have different ids ever have the same value? Why or why not?
+
+### If we see a variable being referenced, where should we look in our code to determine whether that variable is in scope?
+
+### What's the benefit of passing arguments into functions, rather than defining the needed values as variables within the function body?
+
+### In the `is_digit` function, why are we able to simply `return False`? Why don't we need to use a conditional like `if char < '0' or char > '9'` _before_ returning `False`?
+
+```python
+def is_digit(char):
+    if char >= '0' and char <= '9':
+        return True
+
+    return False
+```
+
+### If we see a method we aren't familiar with being used in a code snippet, where should we look in the documentation to find information about it?
