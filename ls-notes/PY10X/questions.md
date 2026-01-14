@@ -109,4 +109,23 @@ foo = 'Hello'
 
 ### If integers are immutable, how can `my_list[1] = 42` be considered a mutating action?
 
+## Input/Output
+
+### What do you think we would've seen output by `personalized_greeting.py` if the user had hit enter/return without typing anything first?
+
+```python
+name = input("What's your name?\n")
+print(f'Good Morning, {name}!')
+```
+
+### What happens in our `sum_numbers.py` program if a user enters something that _isn't_ a number? How come?
+
+```python
+number1 = input('Enter the first number: ')
+number2 = input('Enter the second number: ')
+sum = float(number1) + float(number2)
+
+print(f'The numbers {number1} and {number2} add to {sum}')
+```
+
 
