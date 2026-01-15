@@ -154,3 +154,17 @@ def is_digit(char):
 ```
 
 ### If we see a method we aren't familiar with being used in a code snippet, where should we look in the documentation to find information about it?
+
+## Flow Control
+
+### Would it be possible for both an `if` block _and_ its accompanying `else` block to be executed in a single execution of the conditional? Why or why not?
+
+### Are there any cases where comparison operators can be used between different types in Python? If so, give an example; if not, explain why.
+
+### How could we replicate the functionality of `<=` with a conditional _without_ using `<=` directly?
+
+### Is the string `'False'` falsy? What about negative numbers—are they falsy? More generally, which strings are falsy, and which integers are falsy?
+
+### When evaluating a logical condition with multiple sub-expressions, is it guaranteed that all sub-expressions will be evaluated? Why or why not?
+
+### Is there anything you can do with a `match/case` statement that you _can't_ do with an `if` conditional? If so, provide an example; if not, explain why.
