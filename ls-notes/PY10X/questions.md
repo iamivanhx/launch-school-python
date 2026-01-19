@@ -168,3 +168,19 @@ def is_digit(char):
 ### When evaluating a logical condition with multiple sub-expressions, is it guaranteed that all sub-expressions will be evaluated? Why or why not?
 
 ### Is there anything you can do with a `match/case` statement that you _can't_ do with an `if` conditional? If so, provide an example; if not, explain why.
+
+## Intro to Collections
+
+### What are the two key characteristics that define a collection as a sequence? What are at least two characteristics that can differ between sequence types?
+
+### Could we store an integer _and_ a float of the same value into a set, like `3` and `3.0`? Aren't these two objects considered equal?
+
+### How are sets similar to the _keys_ of a dictionary?
+
+### Why do you think dictionaries require each _key_ to be unique, but allow _values_ to be repeated?
+
+### Why do you think we must use a constructor function to create an _empty_ set?
+
+### When the `step` is large and the next value would overshoot the `stop`, does `range` include that value and then stop, or does it stop before? For example, consider `range(0, 7, 5)`. With this range include `10`, or will it stop before reaching `10`?
+
+### When you pass a mutable collection, like a list, into a constructor such as `tuple()` or `set()`, does this mutate the original collection into a new type, or does it leave the original unchanged? Why or why not?
