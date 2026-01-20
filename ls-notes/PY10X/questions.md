@@ -184,3 +184,33 @@ def is_digit(char):
 ### When the `step` is large and the next value would overshoot the `stop`, does `range` include that value and then stop, or does it stop before? For example, consider `range(0, 7, 5)`. With this range include `10`, or will it stop before reaching `10`?
 
 ### When you pass a mutable collection, like a list, into a constructor such as `tuple()` or `set()`, does this mutate the original collection into a new type, or does it leave the original unchanged? Why or why not?
+
+## Using Collections
+
+### What are two ways to access the last element of a non-empty list in Python when you don't know its length? Write the code for both. Which approach would you typically use, and why?
+
+### Why isn't it possible to use slicing syntax on sets in Python?
+
+### We've seen two main operations above, key-based access, and key-based access with assignment. Are either of these operations mutating? How can we tell?
+
+### How might the `in` operator behave when you check if a list (e.g., `[1, 2]`) is an element within another list? Write a code example that tests or demonstrates how `in` works in this situation.
+
+### Suppose you want to get the index of a certain value in a list, but you don't know if the value is present. What is one way you could safely retrieve the index without causing an error if the value isn't found?
+
+### Dictionary view objects change when the dictionary is updated. What could you do if you want a collection of the dictionary's values that does _not_ change after you collect it?
+
+### What operator or method could you use along with `remove` to ensure you only attempt to remove an element from a list if it exists, thus avoiding an error?
+
+### When using the key argument in `sort` or `sorted`, how does the function or method you provide influence how the list is sorted? What can we imply that Python does with this function as it sorts?
+
+### What's the difference between `capitalize` and `title`?
+
+### Is calling `strip()` with no arguments the same as calling `strip(' ')`? Why or why not?
+
+### How does supplying a tuple as an argument to `startswith` or `endswith` change the behavior of these methods?
+
+### Is calling `split()` with no arguments the the same as calling `split(' ')`? Why or why not?
+
+### What is the main practical difference between using `text.find('x')` and `'x' in text` when searching for a substring, and how might you decide which to use?
+
+### Considering that a tuple can contain objects like lists, what do you think determines whether a tuple itself is hashable?
