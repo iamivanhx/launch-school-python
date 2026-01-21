@@ -214,3 +214,29 @@ def is_digit(char):
 ### What is the main practical difference between using `text.find('x')` and `'x' in text` when searching for a substring, and how might you decide which to use?
 
 ### Considering that a tuple can contain objects like lists, what do you think determines whether a tuple itself is hashable?
+
+## Loops & Iterating
+
+### Why do we need to initialize our `counter` _before_ the `while` loop? What would be the consequence of initializing it inside the loop?
+
+```python
+counter = 1
+while counter <= 1000:
+    print(counter)
+    counter += 1
+```
+
+### How is a `while` loop similar to an `if` conditional? In what important way do they behave differently?
+
+### If you have a task that could be accomplished with either a `for` loop or a `while` loop, which would you choose, and why?
+
+### Is there anything we can do with a `for` loop that we _can't_ do with a `while` loop?
+
+### What's the difference between `break` and `continue`?
+
+### If you need to iterate over three (or more) collections simultaneously, can you still use `zip`? How would the loop's unpacking statement need to change?
+
+### What do lists, dicts, and sets all have in common that likely makes them suitable for being compatible with comprehensions?
+
+
+
