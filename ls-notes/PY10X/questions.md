@@ -238,5 +238,15 @@ while counter <= 1000:
 
 ### What do lists, dicts, and sets all have in common that likely makes them suitable for being compatible with comprehensions?
 
+## Variables as Pointers
+
+### Should we be concerned about unintended side effects from certain operations when dealing with numbers? Why or why not?
+
+### In summary, what's the difference between two objects being the same and two objects having the same value? What tools can we use to test for each of these characteristics?
+
+### Would creating a shallow copy of a list that contains _only_ immutable objects ever lead to unintended side effects? Why or why not?
+
+### Someone argues that we should _always_ make deep copies of objects to avoid unexpected bugs. How would you respond to this advice?
+
 
 
