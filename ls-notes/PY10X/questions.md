@@ -248,5 +248,17 @@ while counter <= 1000:
 
 ### Someone argues that we should _always_ make deep copies of objects to avoid unexpected bugs. How would you respond to this advice?
 
+## More Stuff
+
+### What key characteristic of a function invocation means that we can pass it into another function as an argument? What determines if we can pass _any_ code snippet into a function as an argument?
+
+### When chaining multiple methods together, in what order are methods executed? How do we know which is invoked first?
+
+### If you import `pi` from the `math` module and then later define your own variable named `pi`, which `pi` will your code refer to after that point—the one from `math`, or your own? Why?
+
+### Even though the code works as written, what are some reasons we might choose to define `bottom` before `top` in our file? What benefits could this order provide?
+
+### Why do you think Python requires `global` or `nonlocal` to modify variables from outer scopes, instead of letting inner scopes automatically change outer variables with the same name? What problems might that prevent?
+
 
 
