@@ -1,0 +1,2 @@
+# How many arguments does the str.join method expect? What happens if you call it with fewer or more arguments?
+''.join() # Expects a single argument of type iterable, when none or more arguments are provided an exceptions is raised.
